@@ -1,0 +1,27 @@
+<style>
+	.beer-slider {
+  height: 700px !important;
+  width: 100% !important; /* Ensures the slider width is 80% */
+  position: relative; /* Helps control the layout more effectively */
+}
+
+.beer-slider > img {
+  width: 100% !important; /* Sets the width of the first image */
+  height: 700px; /* Maintain aspect ratio for the first image */
+}
+
+.beer-reveal {
+  height: 700px;!important; /* Maintain aspect ratio for the first image */
+}
+
+.beer-reveal > img {
+  width: 100% !important;
+  height: 100%;!important; /* Maintain aspect ratio for the first image */
+}
+
+  .beer-range::-webkit-slider-thumb {
+    -webkit-appearance: auto;
+    height: 100%
+    
+  }
+</style>
