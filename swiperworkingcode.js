@@ -1,4 +1,6 @@
 <script>
+    // Wait for the page to load
+  $(document).ready(function () {
   // Initialize Swiper
   var swiper = new Swiper('.swiper-container', {
     // Swiper options
